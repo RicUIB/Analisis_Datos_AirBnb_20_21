@@ -5,13 +5,13 @@ date: '2021-2022'
 output:
   word_document:
     toc: yes
-  pdf_document:
-    toc: yes
-    number_sections: yes
   html_document: 
     keep_md: yes
     number_sections: yes
     toc: yes
+  pdf_document:
+    toc: yes
+    number_sections: yes
 linkcolor: red
 header-includes: \renewcommand{\contentsname}{Contenidos}
 citecolor: blue

@@ -7,11 +7,11 @@ output:
     keep_md: yes
     number_sections: yes
     toc: yes
-  word_document:
-    toc: yes
   pdf_document:
     toc: yes
     number_sections: yes
+  word_document:
+    toc: yes
 linkcolor: red
 header-includes: \renewcommand{\contentsname}{Contenidos}
 citecolor: blue
