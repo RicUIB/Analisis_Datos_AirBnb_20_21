@@ -7,11 +7,11 @@ output:
     keep_md: yes
     number_sections: yes
     toc: yes
+  word_document:
+    toc: yes
   pdf_document:
     toc: yes
     number_sections: yes
-  word_document:
-    toc: yes
 linkcolor: red
 header-includes: \renewcommand{\contentsname}{Contenidos}
 citecolor: blue
@@ -29,8 +29,7 @@ Autores:
 1. Apellidos, Nombre
 2. Apellidos, Nombre 
 3. Apellidos, Nombre
-4. Apellidos, Nombre
-5. Apellidos, Nombre
+
 
 # Taller evaluable en grupos datos AirBnb
 
@@ -45,7 +44,7 @@ Autores:
 
 ## Instrucciones
 
-* Entregad en grupos de prácticas.
+* Entregad en grupos de prácticas de 3 estudiantes.
 * Se puede hacer con R o Python.
 * Hay que entregar el Rmd/Notebook junto con su salida en html/pdf
 * Máxima longitud: equivalente a 10 páginas en pdf.
