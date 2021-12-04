@@ -3,14 +3,14 @@ title: "AirBnb Data enunciado práctica Análisis de Datos 21_22. GMAT2"
 author: "Grupo y nombre de cada práctica"
 date: '2021-2022'
 output:
-  word_document:
+  html_document: 
+    keep_md: yes
+    number_sections: yes
     toc: yes
   pdf_document:
     toc: yes
     number_sections: yes
-  html_document: 
-    keep_md: yes
-    number_sections: yes
+  word_document:
     toc: yes
 linkcolor: red
 header-includes: \renewcommand{\contentsname}{Contenidos}
